@@ -1,0 +1,9 @@
+{%extends 'ProyectoWebApp/base.html'%}
+{%load static%}
+
+{%block content%}
+    <h2 style="color: white;">LOS POSTS</h2>
+    {%for post in posts%}
+        <p>{{post}}</p>
+    {%endfor%}
+{%endblock%}
